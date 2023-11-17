@@ -34,7 +34,7 @@
 
   --fs-body: var(--fs-400);
   --fs-primary-heading: var(--fs-700);
-  --fs-secondary-heading: var(--fs-600);
+  --fs-secondary-heading: var(--fs-300);
   --fs-nav: var(--fs-500);
   --fs-button: var(--fs-300);
 
@@ -50,14 +50,14 @@
 
 }
 
-@media (min-width: 50em) {
+/* @media (min-width: 50em) {
   :root {
     --fs-body: var(--fs-500);
     --fs-primary-heading: var(--fs-900);
     --fs-secondary-heading: var(--fs-800);
     --fs-nav: var(--fs-300);
   }
-}
+} */
 
 /* box-sizing */
 *,
@@ -375,8 +375,8 @@ button[data-type="inverted"]:focus-visible {
   --max-width: 1100px;
   --padding: 1rem; /* 16px */
 
-  /* width: min(var(--max-width), 100% - (var(--padding) * 0.02)); */
-  width: 1450px;
+  width: min(var(--max-width), 100% - (var(--padding) * 0.02));
+  /* width: 1450px; */
   margin-inline: auto;
 } 
 
@@ -472,6 +472,9 @@ button[data-type="inverted"]:focus-visible {
 .padding-block-700 {
   padding-block: var(--size-700);
 }
+.padding-top{
+  padding-top: var(--size-200);
+}
 
 .display-sm-none {
   display: none;
@@ -530,3 +533,16 @@ button[data-type="inverted"]:focus-visible {
   margin-top: 16px;
 } */
 
+.landing-image {
+  max-width: 350px;
+ max-height: 500px;
+}
+.app-container{
+  background-color: whitesmoke;
+  padding: 30px
+}
+.logo-image{
+  max-width: 40px;
+  max-height: 40px;
+
+}
