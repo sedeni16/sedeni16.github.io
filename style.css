@@ -5,6 +5,8 @@
   --clr-accent-300: #001f2b;
   --clr-accent-100: hsl(13, 100%, 96%);
 
+  --swiper-navigation-size: 40px;
+
   --clr-primary-400: #00415a;
 
 
@@ -575,7 +577,6 @@ button[data-type="inverted"]:focus-visible {
   height: 100%;
   border-radius: 8px 8px 0 0;
 }
-
 .card-slide .profile-details img{
   height: 40px;
   width: 40px;
@@ -593,22 +594,21 @@ button[data-type="inverted"]:focus-visible {
   column-gap: 12px;
   padding: 15px;
 }
-.swiper-navBtn {
-  color: var(--clr-accent-300);
-  height: 50px;
-  width: 40px;
+.container-slide{
+  padding: 30px 0;
+}
+.slide-container {
+  margin: 0 45px;
+  overflow: hidden;
+}
+.swiper-btn{
+  color: #001f2b;
+  max-height: 40px;
+  max-width: 40px;
+  /* background: white; */
   border-radius: 50%;
-  /* background-color: white; */
 }
-.swiper-navBtn::before,
-.swiper-navBtn::after {
-  font-size: 11px;
-}
-.swiper-pagination-bullet {
-  background-color: #000;
-}
-@media screen and (max-width: 768px) {
-  .swiper-navBtn {
-    display: none;
-  }
+.swiper-btn::before,
+.swiper-btn::after{
+  font-size: 18px;
 }
