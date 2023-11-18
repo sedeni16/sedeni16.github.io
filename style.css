@@ -488,6 +488,11 @@ button[data-type="inverted"]:focus-visible {
   text-align: center;
 }
 
+.section-header{
+  text-align: center;
+  color: white;
+}
+
 .card-container{
   display: flex;
   /* background-color: blue; */
@@ -544,9 +549,13 @@ button[data-type="inverted"]:focus-visible {
   align-items: center;
   align-content: center;
 }
-.app-container{
-  background-color: white;
+/* .app-container{
+  background-color: var(--clr-accent-400);
   padding: 30px
+} */
+.app-container{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/bg1.jpg");
+  padding: 100px
 }
 .logo-image{
   max-width: 40px;
