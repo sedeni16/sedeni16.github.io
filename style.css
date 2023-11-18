@@ -84,7 +84,7 @@ html, body {
 }
 
 body {
-  text-rendering: optimizeSpeed;
+  /* text-rendering: optimizeSpeed; */
   line-height: 1.5;
 }
 
@@ -585,6 +585,7 @@ button[data-type="inverted"]:focus-visible {
   background-color: white;
   border-radius: 8px;
   box-shadow:#001f2b;
+  margin-top: 2rem;
 }
 .card-slide .profile-details{
   display: flex;
@@ -593,15 +594,15 @@ button[data-type="inverted"]:focus-visible {
   padding: 15px;
 }
 .swiper-navBtn {
-  color: #000;
-  height: 40px;
+  color: var(--clr-accent-300);
+  height: 50px;
   width: 40px;
-  background: red;
   border-radius: 50%;
+  /* background-color: white; */
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after {
-  font-size: 18px;
+  font-size: 11px;
 }
 .swiper-pagination-bullet {
   background-color: #000;
