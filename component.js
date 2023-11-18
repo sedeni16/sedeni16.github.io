@@ -57,65 +57,60 @@ class Header extends HTMLElement {
   class Footer extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `    
-      <footer class="primary-footer | padding-block-700 bg-neutral-900 text-neutral-100">
-      <div class="container">
-        <div class="even-columns">
-          <div>
-            <a href="#">
-              <svg class="logo">
-                <use xlink:href="images/logov5-white.svg#logov5-white"></use>
-              </svg>
-            </a>
-            <ul class="social-list" role="list" aria-label="Social links">
-              <li><a aria-label="facebook" href="">
-                <svg class="social-icon">
-                  <use href="images/social-icons.svg#icon-facebook"></use>
-                </svg>
-              </a></li>
-              <li><a aria-label="youtube" href="">
-                <svg class="social-icon">
-                  <use href="images/social-icons.svg#icon-youtube"></use>
-                </svg>
-              </a></li>
-              <li><a aria-label="twitter" href="">
-                <svg class="social-icon">
-                  <use href="images/social-icons.svg#icon-twitter"></use>
-                </svg>
-              </a></li>
-              <li><a aria-label="pinterest" href="">
-                <svg class="social-icon">
-                  <use href="images/social-icons.svg#icon-pinterest"></use>
-                </svg>
-              </a></li>
-              <li><a aria-label="instagram" href="">
-                <svg class="social-icon">
-                  <use href="images/social-icons.svg#icon-instagram"></use>
-                </svg>
-              </a></li>
-            </ul>
+      <footer>
+      <div class="content">
+        <div class="top">
+          <div class="logo-details">
+            <span class="logo_name">Calcutech</span>
           </div>
-          <div>
-            <nav class="footer-nav">
-              <ul class="flow flow-spacer" aria-label="footer" role="list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Career</a></li>
-                <li><a href="#">Community</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div>
-            <form action="">
-              <input type="email"><button class="button">Go</button>
-              <p>Copyright 2023. All Right Reserve</p>
-            </form>
+          <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
           </div>
         </div>
+        <div class="link-boxes">
+          <ul class="box">
+            <li class="link_name">Company</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Get started</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Explore</li>
+            <li><a href="applications.html">Math Applications</a></li>
+            <li><a href="digitalcalculator.html">Digital Calculator</a></li>
+            <li><a href="equation.html">Equation Writer</a></li>
+            <li><a href="presentation.html">Presentation Software</a></li>
+
+          </ul>
+          <ul class="box">
+            <li class="link_name">Application</li>
+            <li><a href="quizapp.html">Quiz Applications</a></li>
+            <li><a href="aiapp.html">AI Applications</a></li>
+            <li><a href="applications.html">Math Applications</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Calculator</li>
+            <li><a href="#">Microsoft Math Solver</a></li>
+            <li><a href="#">Derivative Calculator</a></li>
+            <li><a href="#">Integral Calculator</a></li>
+            <li><a href="#">Graphing Calculator</a></li>
+          </ul>
+        </div>
       </div>
-    </footer>   
+      <div class="bottom-details container">
+        <div class="bottom_text">
+          <span class="copyright_text">Copyright © 2021 <a href="#">CalcuTech.</a>All rights reserved</span>
+          <span class="policy_terms">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & condition</a>
+          </span>
+        </div>
+      </div>
+    </footer>
       `;
     }
   }
