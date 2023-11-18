@@ -119,7 +119,8 @@ svg {
 body {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
-  color: var(--clr-primary-400)
+  color: var(--clr-primary-400);
+  background-color: whitesmoke;
 }
 
 p:not([class]) {
@@ -498,7 +499,7 @@ button[data-type="inverted"]:focus-visible {
 
 .card{
   width: 320px;
-  background-color: whitesmoke;
+  background-color: white;
   border-radius: 10px;
   overflow: hidden;
   margin: 20px;
@@ -539,7 +540,7 @@ button[data-type="inverted"]:focus-visible {
   align-content: center;
 }
 .app-container{
-  background-color: whitesmoke;
+  background-color: white;
   padding: 30px
 }
 .logo-image{
@@ -566,4 +567,47 @@ button[data-type="inverted"]:focus-visible {
 .app-image img{
   max-width: 70px;
   height: auto;
+}
+.card-slide .image-box{
+  height: 200px;
+}
+.card-slide .image-box img{
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-slide .profile-details img{
+  height: 40px;
+  width: 40px;
+}
+.card-slide{
+  width: 312px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow:#001f2b;
+}
+.card-slide .profile-details{
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+}
+.swiper-navBtn {
+  color: #000;
+  height: 40px;
+  width: 40px;
+  background: red;
+  border-radius: 50%;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 18px;
+}
+.swiper-pagination-bullet {
+  background-color: #000;
+}
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
 }

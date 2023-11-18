@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
   </head>
   <body>
     <header class="primary-header">
@@ -107,7 +109,7 @@
 
       <section class="padding-block-700">
         <div class="container center-left">
-          <h2>Featured Apps</h2>
+          <h2 class="fs-secondary-heading fw-bold">Featured Apps</h2>
           <div class="app-content">
             <div class="app-image">
               <img src="images/card-images/logo-image/desmos.png" alt="">
@@ -150,13 +152,53 @@
       </section>
 
        <section class="carousel | padding-block-700">
-        <div class="container">
-          <div class="even-columns">
-            <h2 class="fs-secondary-heading fw-bold">What they've said</h2>
-            <div>
-              <button class="button">Get Started</button>
-            </div>
+        <div class="container swiper">
+          <h2 class="fs-secondary-heading fw-bold">Trending Apps</h2>
+          <div class="slide-container">
+              <div class="card-wrapper swiper-wrapper">
+                <div class="card-slide swiper-slide">
+                  <div class="image-box">
+                    <img class="card-img" src="images/card-images/desmos-cover.png" alt="">
+                  </div>
+                  <div class="profile-details">
+                    <img src="images/card-images/logo-image/desmos.png" alt="">
+                    <div class="app-name">
+                      <h3 class="fs-500 fw-semi-bold">Desmos</h3>
+                      <h4 class="fs-300 fw-regular">Math Application</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-slide swiper-slide">
+                  <div class="image-box">
+                    <img class="card-img" src="images/card-images/canva1.jfif" alt="">
+                  </div>
+                  <div class="profile-details">
+                    <img src="images/card-images/logo-image/canva.jpg" alt="">
+                    <div class="app-name">
+                      <h3 class="fs-500 fw-semi-bold">Canva</h3>
+                      <h4 class="fs-300 fw-regular">Presentation Software</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-slide swiper-slide">
+                  <div class="image-box">
+                    <img class="card-img" src="images/card-images/geogebra-cover.png" alt="">
+                  </div>
+                  <div class="profile-details">
+                    <img src="images/card-images/logo-image/geogebra.png" alt="">
+                    <div class="app-name">
+                      <h3 class="fs-500 fw-semi-bold">Geogebra</h3>
+                      <h4 class="fs-300 fw-regular">Math Application</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <!-- <div class="swiper-pagination"></div> -->
         </div>
       </section>
 
@@ -178,6 +220,7 @@
     
     <script type="module" src="/main.js"></script>
     <script type="module" src="/component.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/0141777b05.js" crossorigin="anonymous"></script>
   </body>
 </html>
