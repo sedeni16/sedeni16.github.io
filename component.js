@@ -27,21 +27,6 @@ class Header extends HTMLElement {
                   </ul>
                 </div>
               </li>
-              <li>
-                <a href="#">Calculator</a>
-                <div class="sub-nav-list">
-                  <ul role="list" class="nav-list">
-                    <li><a href="#">Scientific Calculator</a></li>
-                    <li><a href="#">Graphing Calculator</a></li>
-                    <li><a href="#">Calculus Solver</a></li>
-                    <li><a href="#">Unit Conversion</a></li>
-                    <li><a href="#">Fraction</a></li>
-                    <!-- <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li> -->
-                  </ul>
-                </div>
-              </li>
               <li><a href="#">Testimonial</a></li>
               <li><a href="#">About us</a></li>
               <!-- <li><a href="#">About Us</a></li> -->
