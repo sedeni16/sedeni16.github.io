@@ -496,6 +496,10 @@ button[data-type="inverted"]:focus-visible {
   margin-top: 20px;
   /* border-color: #3d3d3d; */
 }
+.card-container a{
+  text-decoration: none;
+  color: var(--clr-primary-400);
+}
 
 .card{
   width: 320px;
@@ -504,6 +508,7 @@ button[data-type="inverted"]:focus-visible {
   overflow: hidden;
   margin: 20px;
   box-shadow: #001f2b;
+  text-decoration: none;
 }
 
 .card img{

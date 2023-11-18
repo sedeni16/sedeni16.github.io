@@ -17,10 +17,9 @@ class Header extends HTMLElement {
                 <div class="sub-nav-list">
                   <ul role="list" class="nav-list">
                     <li><a href="application.html">Applications</a></li>
-                    <!-- <li><a href="videoresources.html">Video Resources</a></li> -->
+                    <li><a href="video.html">Video Resources</a></li>
                     <li><a href="digitalcalculator.html">Digital Calculator</a></li>
                     <li><a href="equation.html">Equation Writer</a></li>
-                    <li><a href="pdfmaterials.html">PDF Teaching Materials</a></li>
                     <li><a href="presentation.html">Presentation Software</a></li>
                     <li><a href="quizapp.html">Quiz Applications</a></li>
                     <li><a href="aiapp.html">AI Applications</a></li>
