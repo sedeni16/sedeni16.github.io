@@ -845,3 +845,6 @@ footer .bottom-details .bottom_text{
   font-weight: var(--fw-bold);
   color: #009bd6;
 }
+.padding-left{
+  padding-left: 30px;
+}
