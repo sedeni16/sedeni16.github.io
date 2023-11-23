@@ -16,9 +16,9 @@ class Header extends HTMLElement {
                 <a href="#">Explore</a>
                 <div class="sub-nav-list">
                   <ul role="list" class="nav-list">
-                    <li><a href="application.html">Applications</a></li>
-                    <li><a href="video.html">Video Resources</a></li>
+                    <li><a href="applications.html">Applications</a></li>
                     <li><a href="digitalcalculator.html">Digital Calculator</a></li>
+                    <li><a href="video.html">Video Resources</a></li>
                     <li><a href="equation.html">Equation Writer</a></li>
                     <li><a href="presentation.html">Presentation Software</a></li>
                     <li><a href="quizapp.html">Quiz Applications</a></li>
@@ -26,12 +26,9 @@ class Header extends HTMLElement {
                   </ul>
                 </div>
               </li>
-              <li><a href="#">Testimonial</a></li>
               <li><a href="#">About us</a></li>
-              <!-- <li><a href="#">About Us</a></li> -->
             </ul>
           </nav>
-          <!-- <button class="button | display-sm-none display-md-inline-flex">Get Started</button> -->
         </div>
       </div>
     </header>

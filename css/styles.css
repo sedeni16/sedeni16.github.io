@@ -539,6 +539,11 @@ button[data-type="inverted"]:focus-visible {
   margin-top: 16px;
 } */
 
+.card-container a{
+  text-decoration: none;
+  color: var(--clr-primary-400);
+}
+
 .landing-image {
   max-width: 100%;
   max-height: 500px;
@@ -850,4 +855,22 @@ footer .bottom-details .bottom_text{
 }
 .padding-bottom {
   padding-bottom: 12px;
+}
+.content-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.max-width{
+  max-width: 60%;
+}
+.max-width-two{
+  max-width: 50%;
+}
+.max-height{
+ max-height: 400px;
+}
+.min-width{
+ width: 180px;
+ height: 120px;
 }
