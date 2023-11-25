@@ -20,7 +20,7 @@ class Header extends HTMLElement {
             </div>
           </li>
           <li><a href="digitalcalculator.html">Calculus Calculator</a></li>
-          <li><a href="#">About us</a></li>
+          <!-- <li><a href="#">About us</a></li> -->
         </ul>
       </nav>
     </header>
@@ -45,19 +45,11 @@ class Header extends HTMLElement {
         </div>
         <div class="link-boxes">
           <ul class="box">
-            <li class="link_name">Company</li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Get started</a></li>
-          </ul>
-          <ul class="box">
-            <li class="link_name">Explore</li>
-            <li><a href="applications.html">Math Applications</a></li>
-            <li><a href="digitalcalculator.html">Digital Calculator</a></li>
-            <li><a href="equation.html">Equation Writer</a></li>
-            <li><a href="presentation.html">Presentation Software</a></li>
-
+          <li class="link_name">Explore</li>
+          <li><a href="applications.html">Math Applications</a></li>
+          <li><a href="digitalcalculator.html">Digital Calculator</a></li>
+          <li><a href="equation.html">Equation Writer</a></li>
+          <li><a href="presentation.html">Presentation Software</a></li>
           </ul>
           <ul class="box">
             <li class="link_name">Application</li>
