@@ -231,7 +231,6 @@ button[data-type="inverted"]:focus-visible {
 .sub-nav-list::before {
   position: absolute;
   content: "";
-  width: 0;
   height: 0;
   background-color: blue;
   top: -12px
@@ -621,8 +620,8 @@ button[data-type="inverted"]:focus-visible {
   height: auto;
 }
 .card-slide .image-box{
-  height: 200px;
-  width: auto;
+  height: 150px;
+  
 }
 .card-slide .image-box img{
   height: 100%;
