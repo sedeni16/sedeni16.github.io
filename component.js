@@ -20,7 +20,7 @@ class Header extends HTMLElement {
             </div>
           </li>
           <li><a href="digitalcalculator.html">Calculus Calculator</a></li>
-          <!-- <li><a href="#">About us</a></li> -->
+          <li><a href="about.html">About us</a></li>
         </ul>
       </nav>
     </header>
