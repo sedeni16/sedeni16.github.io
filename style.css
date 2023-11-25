@@ -543,12 +543,36 @@ button[data-type="inverted"]:focus-visible {
   color: var(--clr-primary-400);
 }
 
+.card-container-explore{
+  display: flex;
+  /* background-color: blue; */
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+  margin-top: 20px;
+  /* border-color: #3d3d3d; */
+}
+.card-container-explore a{
+  text-decoration: none;
+  color: var(--clr-primary-400);
+}
+
+
 .card{
-  width: 320px;
+  width: 300px;
   background-color: white;
   border-radius: 10px;
   overflow: hidden;
   margin: 20px;
+  box-shadow: #001f2b;
+  text-decoration: none;
+}
+
+.card-explore{
+  width: 280px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 15px;
   box-shadow: #001f2b;
   text-decoration: none;
 }
@@ -558,10 +582,21 @@ button[data-type="inverted"]:focus-visible {
   height: auto;
 }
 
+.card-explore img{
+  width: 100%;
+  height: auto;
+}
+
 .card-content{
   padding: 12px;
 }
-
+.card-content-explore{
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+}
 .app-button{
   padding-top: 12px;
 }
@@ -651,6 +686,7 @@ button[data-type="inverted"]:focus-visible {
   margin: 0 45px;
   overflow: hidden;
 }
+
 .swiper-btn{
   color: #001f2b;
   max-height: 40px;
@@ -884,4 +920,9 @@ footer .bottom-details .bottom_text{
   footer .content .link-boxes .input-box{
     width: 100%;
   }
+}
+.button-explore{
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
 }

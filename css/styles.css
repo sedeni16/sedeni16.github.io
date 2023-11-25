@@ -165,7 +165,7 @@ button[data-type="inverted"]:focus-visible {
 
 /* navi */
 
-.primary-header {
+/* .primary-header {
   padding-top: var(--size-700);
 }
 
@@ -173,13 +173,13 @@ button[data-type="inverted"]:focus-visible {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .mobile-nav-toggle {
   display: none;
 }
 
-.nav-list{
+/* .nav-list{
   font-size: var(--fs-nav);
 }
 
@@ -196,6 +196,41 @@ button[data-type="inverted"]:focus-visible {
 
 .nav-list a:hover, a:focus {
   color: var(--clr-accent-400);
+} */
+
+.nav-list{
+  font-size: var(--fs-nav);
+  /* display: inline-block; */
+}
+
+.nav-list li{
+  /* display: flex; */
+  display: inline-block;
+  /* gap: clamp(var(--size-500), 5vw, var(--size-700)); */
+  font-weight: var(--fw-semi-bold);
+  padding: 8px 10px;
+}
+
+.nav-list li a{
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: var(--clr-primary-400);
+  margin-right: 20px;
+}
+
+.nav-list li a:hover{
+  color: var(--clr-accent-400);
+ }
+
+.nav-header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* padding: 30px 10%; */
+}
+
+.nav-logo{
+  margin-right: auto;
 }
 
 .sub-nav-list {
@@ -472,6 +507,12 @@ button[data-type="inverted"]:focus-visible {
 }
 .padding-block-300 {
   padding-block: var(--size-300);
+}
+.padding-block-600 {
+  padding-block: var(--size-600);
+}
+.padding-block-500 {
+  padding-block: var(--size-500);
 }
 .padding-top{
   padding-top: var(--size-200);
@@ -874,3 +915,4 @@ footer .bottom-details .bottom_text{
  width: 180px;
  height: 120px;
 }
+

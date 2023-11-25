@@ -8,313 +8,213 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="primary-header">
-      <div class="container">
-        <div class="nav-wrapper">
-          <a href="index.html"><img src="images/logov5.svg" alt=""></a>
-          <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-            <img class="icon-hamburger" src="images/icon-hamburger.svg" alt="" aria-hidden="true">
-            <img class="icon-close" src="images/icon-close.svg" alt="" aria-hidden="true">
-            <span class="visually-hidden">Menu</span>
-          </button>
-          <nav class="primary-navigation" id="primary-navigation">
-            <ul aria-label="Primary" role="list" class="nav-list">
-              <li id="sub-nav-active">
-                <a href="#">Explore</a>
-                <div class="sub-nav-list">
-                  <ul role="list" class="nav-list">
-                    <li><a href="applications.html">Applications</a></li>
-                    <li><a href="digitalcalculator.html">Digital Calculator</a></li>
-                    <li><a href="equation.html">Equation Writer</a></li>
-                    <li><a href="presentation.html">Presentation Software</a></li>
-                    <li><a href="quizapp.html">Quiz Applications</a></li>
-                    <li><a href="aiapp.html">AI Applications</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li><a href="#">Testimonial</a></li>
-              <li><a href="#">About us</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
+    <main-header></main-header>
     <main>
-      <section class="padding-block-700">
+      <section>
         <div class="app-container">
           <div class="section-header">
             <div class="row">
-              <h1 class="fs-primary-heading fw-bold">MATH APPLICATIONS</h1>
+              <h1 class="fs-primary-heading fw-bold">EXPLORE</h1>
             </div>
-            <div class="row">
+            <!-- <div class="row">
               <p class="fs-secondary-heading">The application of mathematics is invaluable in solving real-world problems, providing a systematic and logical framework that aids in making informed decisions, analyzing data, and understanding complex phenomena
                 across various fields such as science, engineering, economics, and technology.</p>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
       
-      <section class="padding-block-400">
-        <div class="section-title">
-          <div class="row">
-            <h1 class="fs-primary-heading">Free Applications</h1>
-          </div>
-          <div class="row">
-            <h1 class="fs-secondary-heading">Lorem Ipsum dolor keme</h1>
-          </div>
-        </div>
-        <div class="container card-container">
-          <a href="desmos.html">
-            <div class="card">
-              <img src="images/card-images/desmos-cover.png" alt="Avatar">
-              <div class="card-content">
-                  <div class="logo-image">
-                      <img src="images/card-images/logo-image/desmos.png" alt="">
+      <section class="container padding-block-600" id="trending-topics">
+        <div class=" swiper container-slide">
+          <h2 class="fw-bold fs-600">Recently Added</h2>
+          <div class="slide-container card-container">
+              <div class="card-wrapper swiper-wrapper">
+                <div class="card-slide swiper-slide">
+                    <a target="_blank" href="conker.html">
+                  <div class="image-box">
+                    <img class="card-img" src="images/card-images/conker.jfif" alt="">
                   </div>
-                  <h2 class="fs-600 fw-bold padding-top">Desmos</h2>
-                  <p class="fs-300 fw-regular padding-top">
-                      Advanced graphing calculator implemented as a web application and a mobile application. 
-                  </p>
-              </div>
-            </div>
-          </a>
-     
-          <a href="geogebra.html">
-            <div class="card">
-              <img src="images/card-images/geogebra-cover.png" alt="Avatar">
-              <div class="card-content">
-                  <div class="logo-image">
-                      <img src="images/card-images/logo-image/geogebra.png" alt="">
+                  <div class="profile-details">
+                    <img src="images/card-images/logo-image/conker ai.jpg" alt="">
+                    <div class="app-name">
+                      <h3 class="fs-500 fw-semi-bold">Conker</h3>
+                      <h4 class="fs-300 fw-regular">AI Application</h4>
+                    </div>
                   </div>
-                  <h2 class="fs-600 fw-bold padding-top">Geogebra</h2>
-                  <p class="fs-300 fw-regular padding-top">A dynamic mathematics software that brings 
-                      together geometry, algebra, spreadsheets, graphing, statistics, and calculus in a single platform.</p>
-              </div>
-            </div>
-          </a>
-
-          <a href="quickgraph.html">
-            <div class="card">
-            <img src="images/card-images/quickgraph-cover.png" alt="Avatar">
-            <div class="card-content">
-                <div class="logo-image">
-                    <img src="images/card-images/logo-image/quickgraph.png" alt="">
+                </a>
                 </div>
-                <h2 class="fs-600 fw-bold padding-top">Quick Graph</h2>
-                <p class="fs-300 fw-regular padding-top">A quick and straightforward graphing tool, there are various 
-                    graphing calculator apps available that allow users to graph mathematical functions on their devices.</p>
-            </div>
-          </div>
-          </a>
-
-          <a href="naturalsci.html">
-            <div class="card">
-              <img src="images/card-images/nat-sci-cal.png" alt="Avatar">
-              <div class="card-content">
-                  <div class="logo-image">
-                      <img src="images/card-images/logo-image/natural.png" alt="">
+               
+                  <div class="card-slide swiper-slide">
+                    <a target="_blank" href="buzzmath.html">
+                    <div class="image-box">
+                      <img class="card-img" src="images/card-images/buzz.jfif" alt="">
+                    </div>
+                    <div class="profile-details">
+                      <img src="images/card-images/logo-image/buzzmath.png" alt="">
+                      <div class="app-name">
+                        <h3 class="fs-500 fw-semi-bold">BuzzMath</h3>
+                        <h4 class="fs-300 fw-regular">AI Application</h4>
+                      </div>
+                    </div>
+                  </a>
                   </div>
-                  <h2 class="fs-600 fw-bold padding-top">Natural Scientific Calculator</h2>
-                  <p class="fs-300 fw-regular padding-top">a type of calculator that aims to provide a user interface and 
-                      functionality that closely mimics the way people naturally write or express mathematical expressions. </p>
-              </div>
-            </div>
-          </a>
+                
+                  <div class="card-slide swiper-slide">
+                   <a target="_blank" href="quizecko.html">
+                    <div class="image-box">
+                    <img class="card-img" src="images/card-images/gecko.png" alt="">
+                  </div>
+                  <div class="profile-details">
+                    <img src="images/card-images/logo-image/quizgecko.jpg" alt="">
+                    <div class="app-name">
+                      <h3 class="fs-500 fw-semi-bold">Quiz Gecko</h3>
+                      <h4 class="fs-300 fw-regular">Quiz Application</h4>
+                    </div>
+                  </div>
+                </a>
+                  </div>
+                
+                  <div class="card-slide swiper-slide">
+                <a target="_blank" href="zoho.html">
+                    <div class="image-box">
+                      <img class="card-img" src="images/card-images/zoho.jfif" alt="">
+                    </div>
+                    <div class="profile-details">
+                      <img src="images/card-images/logo-image/zohoshows.png" alt="">
+                      <div class="app-name">
+                        <h3 class="fs-500 fw-semi-bold">Zoho Shows</h3>
+                        <h4 class="fs-300 fw-regular">Presentation Software</h4>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+             
+         
+                  <div class="card-slide swiper-slide">
+                <a target="_blank" href="realcalc.html">
+                    <div class="image-box">
+                      <img class="card-img" src="images/card-images/realcal.png" alt="">
+                    </div>
+                    <div class="profile-details">
+                      <img src="images/card-images/logo-image/realcalc scientific.png" alt="">
+                      <div class="app-name">
+                        <h3 class="fs-500 fw-semi-bold">RealCalc Scientific Calculator</h3>
+                        <h4 class="fs-300 fw-regular">Digital Calculator</h4>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+              
 
-          <div class="card">
-            <img src="images/card-images/deri-calc.png" alt="Avatar">
-            <div class="card-content">
-                <div class="logo-image">
-                    <img src="images/card-images/logo-image/derivativecalcu.png" alt="">
-                </div>
-                <h2 class="fs-600 fw-bold padding-top">Derivative Calculator</h2>
-                <p class="fs-300 fw-regular padding-top">A tool that computes the derivative of a given mathematical function with respect to its variable</p>
-            </div>
-          </div>
+                  <div class="card-slide swiper-slide">
+                <a target="_blank" href="adobexpress.html">
+                    <div class="image-box">
+                      <img class="card-img" src="images/card-images/adobexpress.jfif" alt="">
+                    </div>
+                    <div class="profile-details">
+                      <img src="images/card-images/logo-image/adobexpress.jfif" alt="">
+                      <div class="app-name">
+                        <h3 class="fs-500 fw-semi-bold">Adobe Express</h3>
+                        <h4 class="fs-300 fw-regular">Presentation Software</h4>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+               
 
-          <div class="card">
-            <img src="images/card-images/integral-calc.png" alt="Avatar">
-            <div class="card-content">
-                <div class="logo-image">
-                    <img src="images/card-images/logo-image/integralcalcu.png" alt="">
+                  <div class="card-slide swiper-slide">
+                <a target="_blank" href="quizlet.html">
+                    <div class="image-box">
+                      <img class="card-img" src="images/card-images/quizlet-cover.png" alt="">
+                    </div>
+                    <div class="profile-details">
+                      <img src="images/card-images/logo-image/quizlet.jpg" alt="">
+                      <div class="app-name">
+                        <h3 class="fs-500 fw-semi-bold">Quizlet</h3>
+                        <h4 class="fs-300 fw-regular">Quiz Application</h4>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+               
+                  <div class="card-slide swiper-slide">
+                  <a target="_blank" href="mentimeter.html">
+                    <div class="image-box">
+                      <img class="card-img" src="images/card-images/mentmeter.jfif" alt="">
+                    </div>
+                    <div class="profile-details">
+                      <img src="images/card-images/logo-image/mentimeter.png" alt="">
+                      <div class="app-name">
+                        <h3 class="fs-500 fw-semi-bold">Mentimeter</h3>
+                        <h4 class="fs-300 fw-regular">Presentation Software</h4>
+                      </div>
+                    </div>
+                  </a>
+                  </div>
                 </div>
-                <h2 class="fs-600 fw-bold padding-top">Integral Calculator</h2>
-                <p class="fs-300 fw-regular padding-top">A tool that computes the definite or indefinite integral of a given mathematical function.</p>
-            </div>
           </div>
-
-          <div class="card">
-            <img src="images/card-images/math-quiz.png" alt="Avatar">
-            <div class="card-content">
-                <div class="logo-image">
-                    <img src="images/card-images/logo-image/mathquiz.png" alt="">
-                </div>
-                <h2 class="fs-600 fw-bold padding-top">Math Quiz</h2>
-                <p class="fs-300 fw-regular padding-top">A software tool designed to assess and reinforce 
-                    a user's understanding of calculus concepts through a series of interactive quizzes or exercises</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="images/card-images/math-work.png" alt="Avatar">
-            <div class="card-content">
-                <div class="logo-image">
-                    <img src="images/card-images/logo-image/mathworkout.png" alt="">
-                </div>
-                <h2 class="fs-600 fw-bold padding-top">Math Workout</h2>
-                <p class="fs-300 fw-regular padding-top">A set of scientifically tested daily brain training exercises and 
-                    math drills designed to enhance mental arithmetic including calculus concepts.
-                </p>
-            </div>
-          </div>
-
-          <a href="mathlab.html">
-            <div class="card">
-            <img src="images/card-images/math-lab.png" alt="Avatar">
-            <div class="card-content">
-                <div class="logo-image">
-                    <img src="images/card-images/logo-image/mathlabcalcu.png" alt="">
-                </div>
-                <h2 class="fs-600 fw-bold padding-top">MatLab Mobile</h2>
-                <p class="fs-300 fw-regular padding-top">A mobile application that enables users to perform 
-                    mathematical calculations, solve equations, and analyze mathematical concepts. </p>
-            </div>
-          </div>
-          </a>
-          
+          <div class="swiper-button-next swiper-btn"></div>
+          <div class="swiper-button-prev swiper-btn"></div>
+          <!-- <div class="swiper-pagination"></div> -->
         </div>
       </section>
-
-      <section class="padding-block-700">
-        <div class="section-title">
-          <div class="row">
-            <h1 class="fs-primary-heading">Paid Applications</h1>
-          </div>
-          <div class="row">
-            <h1 class="fs-secondary-heading">Lorem Ipsum dolor keme</h1>
-          </div>
+      
+      <section class="container padding-block-400">
+        <div class="header-section">
+          <h2 class="fw-bold fs-600">Math Applications</h2>
         </div>
-        <div class="container card-container">
-          <a href="imath.html">
-            <div class="card">
-              <img src="images/card-images/imath-cover.png" alt="Avatar">
-              <div class="card-content">
-                  <div class="logo-image">
-                      <img src="images/card-images/logo-image/imathematicspro.png" alt="">
-                  </div>
-                  <h2 class="fs-600 fw-bold padding-top">iMathematics Pro</h2>
-                  <p class="fs-300 fw-regular padding-top">
-                  A comprehensive mobile application designed to assist students in various mathematical subjects, including calculus.
-                  </p>
-              </div>
-            </div>
-          </a>       
-     
-          <a href="maple.html">
-            <div class="card">
-              <img src="images/card-images/maple-cover.png" alt="Avatar">
-              <div class="card-content">
-                  <div class="logo-image">
-                      <img src="images/card-images/logo-image/maplecalcu.png" alt="">
-                  </div>
-                  <h2 class="fs-600 fw-bold padding-top">Maple Calculator</h2>
-                  <p class="fs-300 fw-regular padding-top">a powerful mathematical tool that provides 
-                    a wide range of functionalities, including support for calculus operations. </p>
-              </div>
-            </div>
-          </a>
-         
-          <a href="calculustool.html">
-            <div class="card">
-            <img src="images/card-images/calctool-cover.png" alt="Avatar">
-            <div class="card-content">
+        <div class="container card-container-explore">
+          <a target="_blank" href="canvamagic.html">
+            <div class="card-explore">
+            <img src="images/card-images/canva.jfif" alt="Avatar">
+            <div class="card-content-explore">
                 <div class="logo-image">
-                    <img src="images/card-images/logo-image/calculus tools.png" alt="">
+                    <img src="images/card-images/logo-image/canva.jpg" alt="">
                 </div>
-                <h2 class="fs-600 fw-bold padding-top">Calculus Tools</h2>
-                <p class="fs-300 fw-regular padding-top">Math application that finds derivatives, computes definite integrals, arc lengths, finds Taylor series, 
-                  plots graphs of functions, including polar and parametric and slope fields.</p>
+                  <h2 class="fs-500 fw-bold">Canva's Magic Design</h2>
             </div>
           </div>
           </a>
           
-          <a href="mathstudio.html">
-            <div class="card">
-              <img src="images/card-images/math-studio-cover.png" alt="Avatar">
-              <div class="card-content">
-                  <div class="logo-image">
-                      <img src="images/card-images/logo-image/mathstudio.png" alt="">
-                  </div>
-                  <h2 class="fs-600 fw-bold padding-top">MathStudio</h2>
-                  <p class="fs-300 fw-regular padding-top">A mathematical computing software and mobile app designed 
-                    for mathematical and scientific calculations, graphing, and symbolic computation. </p>
-              </div>
-            </div>
-          </a>
-
-          <a href="mathlab.html">
-            <div class="card">
-              <img src="images/card-images/mathlab-cover.png" alt="Avatar">
-              <div class="card-content">
-                  <div class="logo-image">
-                      <img src="images/card-images/logo-image/mathlabcalcu.png" alt="">
-                  </div>
-                  <h2 class="fs-600 fw-bold padding-top">Math Lab Calculator</h2>
-                  <p class="fs-300 fw-regular padding-top">A mobile application that enables users to perform mathematical calculations, solve equations, and analyze mathematical concepts.</p>
-              </div>
-            </div>
-          </a>
-          
-          <a href="realcalc.html">
-            <div class="card">
-            <img src="images/card-images/realcal.png" alt="Avatar">
-            <div class="card-content">
+          <a target="_blank" href="magicschool.html">
+            <div class="card-explore">
+            <img src="images/card-images/magic.jfif" alt="Avatar">
+            <div class="card-content-explore">
                 <div class="logo-image">
-                    <img src="images/card-images/logo-image/realcalc scientific.png" alt="">
+                    <img src="images/card-images/logo-image/magic school ai.jpg" alt="">
                 </div>
-                <h2 class="fs-600 fw-bold padding-top">RealCalc Scientific Calculator</h2>
-                <p class="fs-300 fw-regular padding-top">A mobile app that simulates a traditional handheld scientific calculator. </p>
+                <h2 class="fs-600 fw-bold">Magic School AI</h2>
             </div>
           </div>
           </a>
           
-          <a href="mathref.html">
-             <div class="card">
-            <img src="images/card-images/mygraphing.png" alt="Avatar">
-            <div class="card-content">
+          <a target="_blank" href="sumdog.html">
+             <div class="card-explore">
+            <img src="images/card-images/sumdog.jfif" alt="Avatar">
+            <div class="card-content-explore">
                 <div class="logo-image">
-                    <img src="images/card-images/logo-image/mathref.png" alt="">
+                    <img src="images/card-images/logo-image/sumdog.jpg" alt="">
                 </div>
-                <h2 class="fs-600 fw-bold padding-top">MathRef</h2>
-                <p class="fs-300 fw-regular padding-top"> Math reference app with formulas and theorems
-                </p>
+                <h2 class="fs-600 fw-bold">Sumdog</h2>
             </div>
           </div>
           </a>
          
-
-          <div class="card">
-            <img src="images/card-images/mygraphing.png" alt="Avatar">
-            <div class="card-content">
-                <div class="logo-image">
-                    <img src="images/card-images/logo-image/mygraphing.png" alt="">
-                </div>
-                <h2 class="fs-600 fw-bold padding-top">My Graphing Calculator</h2>
-                <p class="fs-300 fw-regular padding-top"> a standard scientific calculator in addition to 
-                  powerful functions graphing. It supports complex numbers and complex functions.
-                </p>
-            </div>
+          <div class="button-explore">
+            <a href="applications.html" class="cta-btn"><button class="button">View All</button></a>
           </div>
         </div>
-      </section>
+      </section>  
     </main>
     <main-footer></main-footer>
 
     <script type="module" src="main.js"></script>
     <script type="module" src="/component.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/0141777b05.js" crossorigin="anonymous"></script>
   </body>
 </html>
