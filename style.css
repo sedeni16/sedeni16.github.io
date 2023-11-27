@@ -242,6 +242,7 @@ button[data-type="inverted"]:focus-visible {
   height: 15px;
   top: -5px;
   padding-left: 20px;
+  z-index: 9999;
 }
 
 .nav-list li:hover .sub-nav-list {
